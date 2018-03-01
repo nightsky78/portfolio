@@ -1,156 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Mostly Fluid - Quiz</title>
+    <title>Portfolio Johannes Hettig</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style type="text/css">
-    @import url(https://fonts.googleapis.com/css?family=Roboto);
-      html, body {
-       background-color: black;
-      }
-
-    </style>
-    <style type="text/css">
-      .container {
-        display: flex;
-        flex-wrap: wrap;
-        color: white;
-        margin: 10px;
-      }
-
-      .box {
-        width: 100%;
-      }
-
-      .header {
-        max-height : 150px;
-       }
-
-      .footer {
-        height: 50px;
-        width: 100%;
-        text-align: center;
-      }
-
-      .intro {
-        font-size: 25px;
-        line-height: 35px;
-      }
-
-      .text{
-        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-        font-style: normal;
-        font-variant: small-caps;
-        font-weight: 700;
-      }
-
-      .bar {
-        width : 100%;
-        background-color:#3c9fd6;
-        border: 0 none;
-      }
-
-      .glow {
-        color : #3c9fd6;
-        box-shadow: 0px 0px 5px 2px #3c9fd6;
-
-      }
-
-      img {
-        max-height: 100%;
-        max-width: 100%;
-
-      }
-
-       figure {
-          margin: 10px
-       }
-
-        .project {
-            margin: 0 auto;
-            text-align: center;
-        }
-
-
-      @media screen and (max-width: 451px) {
-      .box {
-      width : 100%;
-
-      }
-
-      .logoimg {
-            display: block;
-            margin: 10px;
-            margin-right: auto;
-            max-height: 100px;
-          }
-
-        .logo {
-            width : 100%;
-        }
-
-        .intro {
-            width : 100%;
-         }
-
-        .project {
-            width : 100%;
-            overflow: auto;
-        }
-
-        .tile{
-            margin : 30px;
-            float: <left></left>;
-            clear: both;
-
-        }
-      }
-
-      @media screen and (min-width: 450px) {
-
-        .logo {
-            width : 30%;
-            align-content:center;
-            }
-
-        .logoimg {
-            display: block;
-            margin: 10px;
-            margin-left: auto;
-            margin-right: auto;
-            max-height: 100px;
-          }
-
-        .intro {
-            width : 70%;
-            line-height:120px;
-            text-align:right;
-         }
-
-         .project {
-            width : 30%
-         }
-
-      }
-
-      @media screen and (min-width: 700px)
-      {
-        .container {
-            width : 690px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-      }
-
-
-    </style>
+    <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
     <div class="container">
       <header class="container box header">
         <div class="logo">
-            <img class="logoimg glow" src="../img/logo.jpg">
+            <img class="logoimg glow" alt="Logo Image" src="../img/logo.jpg">
         </div>
         <div class="text intro">
             Johannes Hettig
@@ -164,16 +24,20 @@
       <section class="text headline">Featured Content</section>
       <section class="container box content">
         <div class="project text">
-            <img class="glow tile" src="../img/Finance.jpg">
+            <a href="https://github.com/nightsky78/Finance_report">
+                <img class="glow tile" alt="picture link to github" src="../img/Finance.jpg">
+            </a>
             Finance project
         </div>
         <div class="project text">
-            <img class="glow tile" src="../img/Linkedin.jpg">
+            <a href="https://www.linkedin.com/in/johannes-hettig-3668524/">
+                <img class="glow tile" alt="Picture link to linkedin" src="../img/Linkedin.jpg">
+            </a>
             My LinkedIn page
         </div>
         <div class="project text">
-            <img class="glow tile" src="../img/Upcoming.jpg">
-            Next project
+            <img class="glow tile" alt="Picture upcoming projects" src="../img/Upcoming.jpg">
+            Next project (tbd)
         </div>
       </section>
       <hr class = "bar glow ">
